@@ -1,0 +1,16 @@
+Prototype photographs, Unsplash License (https://unsplash.com/license).
+
+p1-first-year: photo by Noman Khan, https://unsplash.com/photos/V4_wB6EywfE
+p2-year-three: photo by Pritimohan Shit, https://unsplash.com/photos/Xln54J6efFk
+p3-company-batch: photo by Smartworks Coworking, https://unsplash.com/photos/Uz8THWPXwhI
+p4-short-course: photo by Jerin John, https://unsplash.com/photos/yr0TMTVh0SY
+p6-lesson: photo by Tim Mossholder, https://unsplash.com/photos/23ViZNzr5Rc
+deg-mct: photo by Avel Chuklanov, https://unsplash.com/photos/Hn3S90f6aak
+deg-bca: photo by Arif Riyanto, https://unsplash.com/photos/G1N9kDHqBrQ
+deg-bcom-marketing: photo by Vitaly Gariev, https://unsplash.com/photos/UtIr_UaiDmg
+deg-bcom-computer: photo by Carlos Muza, https://unsplash.com/photos/hpjSkU2UYSU
+v1-ai: photo by Mohammad Rahmani, https://unsplash.com/photos/8qEB0fTe9Vw
+v2-film: photo by Peter Stumpf, https://unsplash.com/photos/yk9VXp4W5-Q
+v3-design: photo by Amélie Mourichon, https://unsplash.com/photos/sv8oOQaUb-o
+v4-business: photo by Annie Spratt, https://unsplash.com/photos/QckxruozjRg
+hero-board: photo by Vadim Sherbakov, https://unsplash.com/photos/Hi9GSwWkCJk
