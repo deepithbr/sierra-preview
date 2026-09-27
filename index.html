@@ -23,12 +23,16 @@
     d.classList.remove('no-js')
     d.classList.add('js')
     try {
-      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion')
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        d.classList.add('motion')
+        // Safety net: show the opening even if the page script never runs.
+        setTimeout(function () { d.classList.add('ready') }, 3000)
+      }
     } catch (e) {}
   })()
 </script>
-  <script type="module" crossorigin src="/sierra-preview/assets/index-DU9S1U4E.js"></script>
-  <link rel="stylesheet" crossorigin href="/sierra-preview/assets/index-BuG2cl-8.css">
+  <script type="module" crossorigin src="/sierra-preview/assets/index-C2d_tw_f.js"></script>
+  <link rel="stylesheet" crossorigin href="/sierra-preview/assets/index-afKzFe0Z.css">
 </head>
 
 <body>
