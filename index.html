@@ -25,17 +25,25 @@
     try {
       if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
         d.classList.add('motion')
-        // Safety net: show the opening even if the page script never runs.
-        setTimeout(function () { d.classList.add('ready') }, 3000)
+        // The opening sequence plays once per visit.
+        var intro = false
+        try { intro = !sessionStorage.getItem('sierra-intro') } catch (e) {}
+        if (intro) d.classList.add('intro-on')
+        // Safety net: show the page even if the page script never runs.
+        setTimeout(function () { d.classList.remove('intro-on'); d.classList.add('ready') }, intro ? 6500 : 3000)
       }
     } catch (e) {}
   })()
 </script>
-  <script type="module" crossorigin src="/sierra-preview/assets/index-ClLBrdJM.js"></script>
-  <link rel="stylesheet" crossorigin href="/sierra-preview/assets/index-DKj3Uq_x.css">
+  <script type="module" crossorigin src="/sierra-preview/assets/index-DmAtPi_1.js"></script>
+  <link rel="stylesheet" crossorigin href="/sierra-preview/assets/index-BF8VI_dN.css">
 </head>
 
 <body>
+<div class="intro" aria-hidden="true">
+  <div class="intro__field"></div>
+  <img class="intro__logo" src="/sierra-preview/media/logo-full.png" width="329" height="513" alt="" />
+</div>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="top">
